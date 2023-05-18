@@ -1,8 +1,8 @@
 # IPC: Inter-Process Communication
 
-First, implement the getfile server to act as a proxy server. This server will accept incoming GETFILE requests and translate them into http requests for another server, such as one located on the internet.
+The getfile server act as a proxy server. It accepts incoming GETFILE requests and translate them into http requests for another server, such as one located on the internet.
 
-Then, implement a cache process that will run on the same machine as the proxy and communicate with it via shared memory.
+The cache process runs on the same machine as the proxy and communicate with it via shared memory.
 
 ![part2 architecture](docs/part2.png)
 
