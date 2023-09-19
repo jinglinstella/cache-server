@@ -1,10 +1,10 @@
 # IPC: Inter-Process Communication
 
-This project simulates inter-porcess communication via shared memory. </br>
+This project simulates inter-process communication via shared memory. </br>
 
-The getfile server act as a proxy server. It accepts incoming GETFILE requests and translate them into http requests for another server, such as one located on the internet.
+The getfile server acts as a proxy server. It accepts incoming GETFILE requests and translates them into HTTP requests for another server, such as one located on the Internet.
 
-The cache process runs on the same machine as the proxy and communicate with it via shared memory.
+The cache process runs on the same machine as the proxy and communicates with it via shared memory.
 
 ![part2 architecture](docs/part2.png)
 
